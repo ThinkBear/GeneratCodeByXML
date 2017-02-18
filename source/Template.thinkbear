@@ -1,0 +1,29 @@
+package cn.thinkbear.app;
+
+{Import}
+
+/**
+ * 
+ * @author ThinkBear
+ */
+
+public class ThinkBearActivity extends BaseActivity {
+  
+    {Def}
+
+    @Override
+    protected int getContentViewId() {
+        return R.layout.activity_agreement;
+    }
+
+    @Override
+    protected void doInitView() {
+        {Init}
+    }
+
+    @Override
+    protected void doSetView() {
+       
+    }
+
+}
